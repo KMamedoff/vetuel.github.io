@@ -1,0 +1,25 @@
+html {
+    margin: 0;
+    padding: 0;
+    color-scheme: dark;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: url("assets/bg_sprite.png") repeat top left;
+}
+
+@media (min-width: 768px) {
+    #canva-iframe { width: 70%; }
+}
+
+#canva-iframe {
+    display: block;
+    width: 90%;
+    max-width: 800px;
+    margin: 2vh auto;
+    aspect-ratio: 4 / 5;
+    border: none;
+    background: transparent;
+}
